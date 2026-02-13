@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plantee - Bring Nature Home</title>
+    <meta name="description"
+        content="Discover the perfect plants for your home. Eco-friendly, sustainable, and beautiful.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <!-- Remix Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header id="header">
+        <nav class="container">
+            <a href="#" class="logo">Plantee</a>
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#home" class="nav-link active-link">Home</a></li>
+                    <li class="nav-item"><a href="#shop" class="nav-link">Shop</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#blog" class="nav-link">Blog</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="nav-close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="nav-btns">
+                <div class="cart-icon" id="cart-btn">
+                    <i class="ri-shopping-bag-line"></i>
+                    <span class="cart-count">0</span>
+                </div>
+                <!-- Toggle button -->
+                <div class="nav-toggle" id="nav-toggle">
+                    <i class="ri-menu-line"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Hero Section -->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <h1 class="home__title">Perfect Plant <br> Sale In Lookbook</h1>
+                    <p class="home__description">
+                        Discover the best eco-friendly plants for your home.
+                        Bringing nature closer to you with our sustainable collection.
+                    </p>
+                    <a href="#shop" class="button button--flex">
+                        Shop Collection <i class="ri-arrow-right-down-line button__icon"></i>
+                    </a>
+                </div>
+                <div class="home__img-container">
+                    <!-- Hero Image will be inserted here -->
+                    <img src="assets/img/hero-plant.jpg" alt="Hero Plant" class="home__img">
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features section">
+            <div class="features__container container grid">
+                <div class="features__card">
+                    <div class="features__icon">
+                        <i class="ri-rocket-line"></i>
+                    </div>
+                    <h3 class="features__title">Free Shipping</h3>
+                    <p class="features__description">On all orders over $100</p>
+                </div>
+                <div class="features__card">
+                    <div class="features__icon">
+                        <i class="ri-customer-service-2-line"></i>
+                    </div>
+                    <h3 class="features__title">24/7 Support</h3>
+                    <p class="features__description">Online support 24 hours a day</p>
+                </div>
+                <div class="features__card">
+                    <div class="features__icon">
+                        <i class="ri-money-dollar-circle-line"></i>
+                    </div>
+                    <h3 class="features__title">Money Back</h3>
+                    <p class="features__description">100% money back guarantee</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <h2 class="section__title about__title">About Plantee <br> We Bring Nature To You</h2>
+                    <p class="about__description">
+                        At Plantee, we believe that everyone deserves to have a little bit of nature in their home.
+                        Our journey began with a simple passion for greenery and a desire to share it with the world.
+                        We source the healthiest, most beautiful plants and deliver them straight to your doorstep,
+                        making it easier than ever to cultivate your own indoor jungle.
+                    </p>
+                    <a href="#shop" class="button">Learn More</a>
+                </div>
+                <div class="about__img">
+                    <img src="assets/img/about-img.jpg" alt="About Plantee" class="about__img-one">
+                </div>
+            </div>
+        </section>
+
+        <!-- New Products Section -->
+        <section class="products section" id="shop">
+            <h2 class="section__title">New Products</h2>
+            <div class="products__container container grid">
+                <!-- Product content will be duplicated for layout now -->
+                <article class="products__card">
+                    <img src="assets/img/ficus.png" alt="" class="products__img">
+                    <h3 class="products__title">Ficus Elastica</h3>
+                    <span class="products__price">$19.99</span>
+                    <button class="button products__button">
+                        <i class="ri-shopping-bag-line"></i>
+                    </button>
+                </article>
+                <article class="products__card">
+                    <img src="assets/img/snake-planet.png" alt="" class="products__img">
+                    <h3 class="products__title">Snake Plant</h3>
+                    <span class="products__price">$24.99</span>
+                    <button class="button products__button">
+                        <i class="ri-shopping-bag-line"></i>
+                    </button>
+                </article>
+                <article class="products__card">
+                    <img src="assets/img/aloe-vera.png" alt="" class="products__img">
+                    <h3 class="products__title">Aloe Vera</h3>
+                    <span class="products__price">$14.99</span>
+                    <button class="button products__button">
+                        <i class="ri-shopping-bag-line"></i>
+                    </button>
+                </article>
+                <article class="products__card">
+                    <img src="assets/img/monstera.png" alt="" class="products__img">
+                    <h3 class="products__title">Monstera</h3>
+                    <span class="products__price">$29.99</span>
+                    <button class="button products__button">
+                        <i class="ri-shopping-bag-line"></i>
+                    </button>
+                </article>
+                <article class="products__card">
+                    <img src="assets/img/peace-lily.png" alt="" class="products__img">
+                    <h3 class="products__title">Peace Lily</h3>
+                    <span class="products__price">$22.99</span>
+                    <button class="button products__button">
+                        <i class="ri-shopping-bag-line"></i>
+                    </button>
+                </article>
+                <article class="products__card">
+                    <img src="assets/img/jadi-plant.png" alt="" class="products__img">
+                    <h3 class="products__title">Jade Plant</h3>
+                    <span class="products__price">$18.99</span>
+                    <button class="button products__button">
+                        <i class="ri-shopping-bag-line"></i>
+                    </button>
+                </article>
+            </div>
+        </section>
+
+        <!-- Special Offer Section -->
+        <section class="offer section">
+            <div class="offer__container container grid">
+                <div class="offer__bg" style="background-image: url('assets/img/offer-bg.jpg');"></div>
+                <div class="offer__data">
+                    <h2 class="offer__title">Succulent Garden <br> Gift Boxes</h2>
+                    <p class="offer__description">
+                        Perfect for gifting or treating yourself.
+                        A curated selection of beautiful succulents.
+                    </p>
+                    <a href="#shop" class="button button--white">
+                        Explore Shop
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Popular Categories -->
+        <section class="categories section">
+            <h2 class="section__title">Popular Categories</h2>
+            <div class="categories__container container grid">
+                <div class="category__card">
+                    <img src="assets/img/indoor.png" alt="" class="category__img">
+                    <h3 class="category__title">Indoor Plants</h3>
+                    <span class="category__discount">Up to 30% Off</span>
+                </div>
+                <div class="category__card">
+                    <img src="assets/img/outdoor.png" alt="" class="category__img">
+                    <h3 class="category__title">Outdoor Plants</h3>
+                    <span class="category__discount">Up to 20% Off</span>
+                </div>
+                <div class="category__card">
+                    <img src="assets/img/sull.png" alt="" class="category__img">
+                    <h3 class="category__title">Succulents</h3>
+                    <span class="category__discount">Up to 50% Off</span>
+                </div>
+                <div class="category__card">
+                    <img src="assets/img/planters.png" alt="" class="category__img">
+                    <h3 class="category__title">Planters</h3>
+                    <span class="category__discount">Up to 15% Off</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Section -->
+        <section class="blog section" id="blog">
+            <h2 class="section__title">From Our Blog</h2>
+            <div class="blog__container container grid">
+                <article class="blog__card">
+                    <img src="assets/img/blog1.png" alt="" class="blog__img">
+                    <div class="blog__data">
+                        <h3 class="blog__title">Top 10 Air Purifying Plants</h3>
+                        <p class="blog__description">Breathe easier with these natural air filters for your home.</p>
+                        <a href="#" class="blog__link">Read More</a>
+                    </div>
+                </article>
+                <article class="blog__card">
+                    <img src="assets/img/succulants.png" alt="" class="blog__img">
+                    <div class="blog__data">
+                        <h3 class="blog__title">How to Water Your Succulents</h3>
+                        <p class="blog__description">The ultimate guide to keeping your succulents happy and healthy.
+                        </p>
+                        <a href="#" class="blog__link">Read More</a>
+                    </div>
+                </article>
+                <article class="blog__card">
+                    <img src="assets/img/blog3.png" alt="" class="blog__img">
+                    <div class="blog__data">
+                        <h3 class="blog__title">Decorating with Plants</h3>
+                        <p class="blog__description">Tips and tricks to style your home with beautiful greenery.</p>
+                        <a href="#" class="blog__link">Read More</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Newsletter Section -->
+        <section class="newsletter section" id="contact">
+            <div class="newsletter__container container">
+                <h2 class="newsletter__title">Get 20% Off Your Next Order</h2>
+                <p class="newsletter__description">Subscribe to our newsletter and get updates on new arrivals and
+                    special offers.</p>
+                <form action="" class="newsletter__form" id="newsletter-form">
+                    <input type="email" placeholder="Enter your email" class="newsletter__input" required>
+                    <button type="button" class="button newsletter__button" id="newsletter-btn">
+                        Subscribe
+                    </button>
+                    <p class="newsletter__message" id="newsletter-message"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div class="footer__content">
+                <a href="#" class="footer__logo">Plantee</a>
+                <p class="footer__description">
+                    We provide the best plants <br> for your home and office.
+                </p>
+                <div class="footer__social">
+                    <a href="#" class="footer__social-link"><i class="ri-facebook-fill"></i></a>
+                    <a href="#" class="footer__social-link"><i class="ri-instagram-line"></i></a>
+                    <a href="#" class="footer__social-link"><i class="ri-twitter-line"></i></a>
+                </div>
+            </div>
+            <div class="footer__content">
+                <h3 class="footer__title">About</h3>
+                <ul class="footer__links">
+                    <li><a href="#about" class="footer__link">About Us</a></li>
+                    <li><a href="#about" class="footer__link">Features</a></li>
+                    <li><a href="#blog" class="footer__link">News</a></li>
+                </ul>
+            </div>
+            <div class="footer__content">
+                <h3 class="footer__title">Quick Links</h3>
+                <ul class="footer__links">
+                    <li><a href="#" class="footer__link">New Arrivals</a></li>
+                    <li><a href="#" class="footer__link">Best Sellers</a></li>
+                    <li><a href="#" class="footer__link">Gift Cards</a></li>
+                </ul>
+            </div>
+            <div class="footer__content">
+                <h3 class="footer__title">Opening Time</h3>
+                <ul class="footer__links">
+                    <li><span class="footer__info">Mon - Sat: 8am - 10pm</span></li>
+                    <li><span class="footer__info">Sun: 9am - 6pm</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__copy">
+            &#169; 2024 Plantee. All rights reserved.
+        </div>
+    </footer>
+
+    <!-- Scroll Up -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line scrollup__icon"></i>
+    </a>
+
+    <!-- Main JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
