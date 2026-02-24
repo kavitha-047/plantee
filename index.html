@@ -61,8 +61,18 @@
                         Discover the best eco-friendly plants for your home.
                         Bringing nature closer to you with our sustainable collection.
                     </p>
-                    <a href="#shop" class="button button--flex">
-                        Shop Collection <i class="ri-arrow-right-down-line button__icon"></i>
+                    <a href="#shop" class="button plant-btn">
+                        <div class="plant-btn__wrapper">
+                            <div class="plant-btn__flower-wrapper">
+                                <div class="plant-btn__flower">
+                                    <div class="plant-btn__leaf plant-btn__leaf-01"></div>
+                                    <div class="plant-btn__leaf plant-btn__leaf-02"></div>
+                                    <div class="plant-btn__leaf plant-btn__leaf-03"></div>
+                                    <div class="plant-btn__leaf plant-btn__leaf-04"></div>
+                                </div>
+                            </div>
+                            <span class="plant-btn__text">Shop Collection</span>
+                        </div>
                     </a>
                 </div>
                 <div class="home__img-container">
@@ -110,7 +120,7 @@
                         We source the healthiest, most beautiful plants and deliver them straight to your doorstep,
                         making it easier than ever to cultivate your own indoor jungle.
                     </p>
-                    <a href="#shop" class="button">Learn More</a>
+                    <a href="about article.html" target="_blank" rel="noopener noreferrer" class="button">Learn More</a>
                 </div>
                 <div class="about__img">
                     <img src="assets/img/about-img.jpg" alt="About Plantee" class="about__img-one">
@@ -132,7 +142,7 @@
                     </button>
                 </article>
                 <article class="products__card">
-                    <img src="assets/img/snake-planet.png" alt="" class="products__img">
+                    <img src="assets/img/snake-plant.png" alt="" class="products__img">
                     <h3 class="products__title">Snake Plant</h3>
                     <span class="products__price">$24.99</span>
                     <button class="button products__button">
@@ -164,7 +174,7 @@
                     </button>
                 </article>
                 <article class="products__card">
-                    <img src="assets/img/jadi-plant.png" alt="" class="products__img">
+                    <img src="assets/img/jade-plant.png" alt="" class="products__img">
                     <h3 class="products__title">Jade Plant</h3>
                     <span class="products__price">$18.99</span>
                     <button class="button products__button">
@@ -195,25 +205,122 @@
         <section class="categories section">
             <h2 class="section__title">Popular Categories</h2>
             <div class="categories__container container grid">
-                <div class="category__card">
-                    <img src="assets/img/indoor.png" alt="" class="category__img">
-                    <h3 class="category__title">Indoor Plants</h3>
-                    <span class="category__discount">Up to 30% Off</span>
+                <!-- Indoor Plants -->
+                <div class="category__group">
+                    <div class="category__header">
+                        <a href="https://example.com" target="_blank" class="category__link">
+                            <img src="assets/img/indoor.png" alt="" class="category__img">
+                            <h3 class="category__title">Indoor Plants</h3>
+                            <span class="category__discount">Up to 30% Off</span>
+                        </a>
+                    </div>
+                    <div class="category__products grid">
+                        <a href="#" target="_blank" class="category__product-card">
+                            <img src="assets/img/monstera.png" alt="Monstera" class="category__product-img">
+                            <span class="category__product-name">Monstera</span>
+                        </a>
+                        <a href="https://example.com" target="_blank" class="category__product-card">
+                            <img src="assets/img/ficus.png" alt="Ficus" class="category__product-img">
+                            <span class="category__product-name">Ficus</span>
+                        </a>
+                        <a href="https://example.com" target="_blank" class="category__product-card">
+                            <img src="assets/img/snake-plant.png" alt="Snake Plant" class="category__product-img">
+                            <span class="category__product-name">Snake Plant</span>
+                        </a>
+                        <a href="https://example.com" target="_blank" class="category__product-card">
+                            <img src="assets/img/jade-plant.png" alt="Jade Plant" class="category__product-img">
+                            <span class="category__product-name">Jade Plant</span>
+                        </a>
+                    </div>
                 </div>
-                <div class="category__card">
-                    <img src="assets/img/outdoor.png" alt="" class="category__img">
-                    <h3 class="category__title">Outdoor Plants</h3>
-                    <span class="category__discount">Up to 20% Off</span>
+
+                <!-- Outdoor Plants -->
+                <div class="category__group">
+                    <div class="category__header">
+                        <a href="https://example.com" target="_blank" class="category__link">
+                            <img src="assets/img/outdoor.png" alt="" class="category__img">
+                            <h3 class="category__title">Outdoor Plants</h3>
+                            <span class="category__discount">Up to 20% Off</span>
+                        </a>
+                    </div>
+                    <div class="category__products grid">
+                        <a href="https://example.com" target="_blank" class="category__product-card">
+                            <img src="assets/img/Bougainvillea .png" alt="Bougainvillea" class="category__product-img">
+                            <span class="category__product-name">Bougainvillea</span>
+                        </a>
+                        <a href="https://example.com" target="_blank" class="category__product-card">
+                            <img src="assets/img/lavender.png" alt="Lavender" class="category__product-img">
+                            <span class="category__product-name">Lavender</span>
+                        </a>
+                        <a href="https://example.com" target="_blank" class="category__product-card">
+                            <img src="assets/img/rubber.png" alt="Rubber" class="category__product-img">
+                            <span class="category__product-name">Rubber</span>
+                        </a>
+                        <a href="https://example.com" target="_blank" class="category__product-card">
+                            <img src="assets/img/Adenium.png" alt="Adenium" class="category__product-img">
+                            <span class="category__product-name">Adenium</span>
+                        </a>
+                        <a href="https://example.com" target="_blank" class="category__product-card">
+                            <img src="assets/img/areca.png" alt="Areca" class="category__product-img">
+                            <span class="category__product-name">Areca</span>
+                        </a>
+                    </div>
                 </div>
-                <div class="category__card">
-                    <img src="assets/img/sull.png" alt="" class="category__img">
-                    <h3 class="category__title">Succulents</h3>
-                    <span class="category__discount">Up to 50% Off</span>
+
+                <!-- Succulents -->
+                <div class="category__group">
+                    <div class="category__header">
+                        <a href="https://example.com" target="_blank" class="category__link">
+                            <img src="assets/img/sull.png" alt="" class="category__img">
+                            <h3 class="category__title">Succulents</h3>
+                            <span class="category__discount">Up to 50% Off</span>
+                        </a>
+                    </div>
+                    <div class="category__products grid">
+                        <a href="https://example.com" target="_blank" class="category__product-card">
+                            <img src="assets/img/Zebra Haworthia .png" alt="Zebra Haworthia"
+                                class="category__product-img">
+                            <span class="category__product-name">Zebra Haworthia</span>
+                        </a>
+                        <a href="https://example.com" target="_blank" class="category__product-card">
+                            <img src="assets/img/rosette succulent.png" alt="Rosette Succulent"
+                                class="category__product-img">
+                            <span class="category__product-name">Rosette Succulent</span>
+                        </a>
+                        <a href="https://example.com" target="_blank" class="category__product-card">
+                            <img src="assets/img/succulants.png" alt="Succulents" class="category__product-img">
+                            <span class="category__product-name">Succulents</span>
+                        </a>
+                    </div>
                 </div>
-                <div class="category__card">
-                    <img src="assets/img/planters.png" alt="" class="category__img">
-                    <h3 class="category__title">Planters</h3>
-                    <span class="category__discount">Up to 15% Off</span>
+
+                <!-- Planters -->
+                <div class="category__group">
+                    <div class="category__header">
+                        <a href="https://example.com" target="_blank" class="category__link">
+                            <img src="assets/img/planters.png" alt="" class="category__img">
+                            <h3 class="category__title">Planters</h3>
+                            <span class="category__discount">Up to 15% Off</span>
+                        </a>
+                    </div>
+                    <div class="category__products grid">
+                        <a href="https://example.com" target="_blank" class="category__product-card">
+                            <img src="assets/img/planters.png" alt="Planters" class="category__product-img">
+                            <span class="category__product-name">Planters</span>
+                        </a>
+                        <a href="https://example.com" target="_blank" class="category__product-card">
+                            <img src="assets/img/hanging pot.png" alt="Hanging Pot" class="category__product-img">
+                            <span class="category__product-name">Hanging Pot</span>
+                        </a>
+                        <a href="https://example.com" target="_blank" class="category__product-card">
+                            <img src="assets/img/green  pot.png" alt="Green Pot" class="category__product-img">
+                            <span class="category__product-name">Green Pot</span>
+                        </a>
+                        <a href="https://example.com" target="_blank" class="category__product-card">
+                            <img src="assets/img/wood planter.png" alt="Wood Planter" class="category__product-img">
+                            <span class="category__product-name">Wood Planter</span>
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -227,7 +334,8 @@
                     <div class="blog__data">
                         <h3 class="blog__title">Top 10 Air Purifying Plants</h3>
                         <p class="blog__description">Breathe easier with these natural air filters for your home.</p>
-                        <a href="#" class="blog__link">Read More</a>
+                        <a href="https://www.gardenhealth.com/advice/houseplant-care/top-ten-air-purifying-houseplants"
+                            target="_blank" rel="noopener noreferrer" class="blog__link">Read More</a>
                     </div>
                 </article>
                 <article class="blog__card">
@@ -236,7 +344,8 @@
                         <h3 class="blog__title">How to Water Your Succulents</h3>
                         <p class="blog__description">The ultimate guide to keeping your succulents happy and healthy.
                         </p>
-                        <a href="#" class="blog__link">Read More</a>
+                        <a href="https://www.joyusgarden.com/watering-succulents-indoors-guide/" target="_blank"
+                            rel="noopener noreferrer" class="blog__link">Read More</a>
                     </div>
                 </article>
                 <article class="blog__card">
@@ -244,7 +353,8 @@
                     <div class="blog__data">
                         <h3 class="blog__title">Decorating with Plants</h3>
                         <p class="blog__description">Tips and tricks to style your home with beautiful greenery.</p>
-                        <a href="#" class="blog__link">Read More</a>
+                        <a href="https://www.thespruce.com/ways-to-decorate-with-plants-4049334" target="_blank"
+                            rel="noopener noreferrer" class="blog__link">Read More</a>
                     </div>
                 </article>
             </div>
