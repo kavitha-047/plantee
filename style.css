@@ -619,14 +619,6 @@ nav {
   transition: .3s;
 }
 
-.category__link:hover {
-  transform: scale(1.05);
-}
-
-.category__link:hover .category__title {
-  color: var(--primary-color);
-}
-
 .category__img {
   width: 80px;
   margin-bottom: var(--mb-0-75);
@@ -664,7 +656,6 @@ nav {
   border: 1px solid rgba(0, 0, 0, 0.03);
   position: relative;
   z-index: 1;
-  cursor: pointer;
 }
 
 .category__product-card:hover {
